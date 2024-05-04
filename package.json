@@ -1,6 +1,7 @@
 {
-  "name": "@medusajs/admin",
-  "version": "7.1.14",
+  "name": "@princemwase/medusa-admin",
+  "version": "0.0.1",
+  "license": "MIT",
   "bin": {
     "medusa-admin": "./bin/medusa-admin.js"
   },
