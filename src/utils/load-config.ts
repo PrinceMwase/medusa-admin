@@ -10,8 +10,8 @@ export const loadConfig = (isDev?: boolean): PluginOptions | null => {
 
   const plugin = configModule.plugins.find(
     (p) =>
-      (typeof p === "string" && p === "@medusajs/admin") ||
-      (typeof p === "object" && p.resolve === "@medusajs/admin")
+      (typeof p === "string" && p === "@princemwase/medusa-admin") ||
+      (typeof p === "object" && p.resolve === "@princemwase/medusa-admin")
   )
 
   if (!plugin) {
